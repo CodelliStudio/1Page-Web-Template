@@ -2,7 +2,9 @@
 
 This project is a fully responsive and modern landing page template designed for showcasing products, services, or personal portfolios. It combines sleek UI design with interactive elements and AI-powered features for an engaging user experience.
 
-✨ Features
+
+
+## ✨ Features
 
 Responsive Design – Adapts seamlessly to desktop, tablet, and mobile screens.
 
@@ -21,7 +23,9 @@ Unique session tracking for each visitor.
 
 Smooth animated open/close interface with a modern design.
 
-🧩 Tech Stack
+
+
+## 🧩 Tech Stack
 
 Frontend: HTML5, CSS3, JavaScript
 
@@ -37,6 +41,38 @@ Glassmorphism and transparency effects (backdrop-filter)
 
 Interactive animations and hover effects
 
-🚀 Purpose
+
+
+## 🚀 How to Run Locally
+
+To use this project locally and have the AI chatbot working, follow these steps:
+
+--- Make sure Node.js is installed on your computer.
+
+--- Open a terminal inside the project folder.
+
+--- Initialize npm (if not already done):
+
+--- npm init -y
+
+
+Install required packages:
+
+--- npm install express cors openai
+
+
+Start the server:
+
+--- node server.js
+
+
+Open your browser and go to:
+
+--- http://localhost:3000
+
+
+💡 Note: Make sure to add your OpenAI API key in a .env file or configure it securely in your backend before running the chatbot.
+
+##  Purpose
 
 This template is ideal for developers and designers who want a modern, interactive landing page with built-in AI features. It’s ready to be customized and deployed for various projects, from personal portfolios to professional service showcases.
