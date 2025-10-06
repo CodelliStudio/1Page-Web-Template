@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "This project is a fully responsive and modern landing page template designed for showcasing products, services, or personal portfolios. It combines sleek UI design with interactive elements and AI-powered features for an engaging user experience.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
