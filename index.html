@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Poner siempre el enlace al archivo CSS del de bootstrap porque sino bootstrap sobreescribe lo que tenga en el CSS -->
+    <link rel="stylesheet" href="./style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Staatliches&display=swap" rel="stylesheet">
+    <title>Codelli Studio</title>
+</head>
+<body>
+    <div id="background"></div>
+
+    <section id="header">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-blur">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center contenedor-prin" href="#">
+                    <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
+                    <span class="fs-4 titulo-prin">Codelli Studio</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#intro">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="hero">
+        <div class="container-fluid px-4 py-5 mx-auto"> 
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 px-0 justify-content-center"> 
+                <div class="col-lg-6 contenedor-prin"> 
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center">We build modern websites that grow your business</h1> 
+                    <p class="lead text-center">We design fast, attractive, and optimized websites that make your brand stand out online. From design to launch, we handle everything so you can focus on your customers.</p> 
+                    <div class="d-grid gap-2 d-md-flex justify-content-center"> 
+                        <button type="button" class="btn btn-custom btn-lg px-4 me-md-2">Get My Website</button>
+                        <button type="button" class="btn btn-outline-custom btn-lg px-4">Let's Talk</button>
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container px-4 py-5 border-bottom" id="hanging-icons"> 
+            <h2 class="pb-2 border-bottom">Features</h2> 
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
+                <div class="col d-flex align-items-start"> 
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-brush" viewBox="0 0 16 16">
+                            <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04M4.705 11.912a1.2 1.2 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.4 3.4 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3 3 0 0 0 .126-.75zm1.44.026c.12-.04.277-.1.458-.183a5.1 5.1 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005zm3.582-3.043.002.001h-.002z"/>
+                        </svg>
+                    </div> 
+                    <div> 
+                        <h3 class="fs-2 text-body-emphasis">Stunning Design</h3> 
+                        <p>We create professional, unique websites that build trust and turn visitors into customers.</p> 
+                        <a href="#" class="btn btn-custom"> Learn More</a> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                        </svg>
+                    </div> 
+                    <div> 
+                        <h3 class="fs-2 text-body-emphasis">Fully Responsive</h3> 
+                        <p>Your website will look perfect on any device—desktop, tablet, or mobile.</p> 
+                        <a href="#" class="btn btn-custom"> Learn More </a> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-speedometer2" viewBox="0 0 16 16">
+                            <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4M3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707M2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.39.39 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.39.39 0 0 0-.029-.518z"/>
+                            <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A8 8 0 0 1 0 10m8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3"/>
+                        </svg>
+                    </div> 
+                    <div> 
+                        <h3 class="fs-2 text-body-emphasis">Speed & Optimization</h3>
+                        <p>Fast, secure, and SEO-ready websites designed to rank on Google and attract more clients.</p> 
+                        <a href="#" class="btn btn-custom"> Learn More </a> 
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </section>
+
+    <section id="intro">
+        <div class="my-5"> 
+            <div class="p-5 text-center glass-card"> 
+                <div class="container py-5"> 
+                    <h1 class="text-white">Take your brand to the next level</h1> 
+                    <img src="./media/profile-img.png" class="profile-img mt-5 mb-2" alt="Personal Image">
+                    <p class="col-lg-8 mx-auto lead text-light">I'm [your name], a web design and development specialist. My mission is to help you build a strong, professional online presence that connects with your audience and delivers real results for your business.</p> 
+                </div> 
+            </div> 
+        </div>
+    </section>
+    
+    <section id="pricing">
+        <header> 
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center"> 
+                <h1 class="display-4 fw-normal text-body-emphasis">Choose the perfect plan for your business</h1> 
+                <p class="fs-5 text-body-secondary">Flexible, transparent pricing designed to give your brand the website it deserves.</p> 
+                <p class="fs-5 text-body-secondary">⚠️The prices shown are base rates and may increase depending on the specific features, functionalities, and requirements of each project.⚠️</p> 
+            </div> 
+        </header>
+        
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center py-3 px-5"> 
+            <div class="col glass"> 
+                <div class="card mb-4 rounded-3 shadow-sm glass-card"> 
+                    <div class="card-header py-3"> 
+                        <h4 class="my-0 fw-normal">Basic</h4> 
+                    </div> 
+                    <div class="card-body"> 
+                        <h1 class="card-title pricing-card-title">$200+<small class="text-body-secondary fw-light"></small></h1> 
+                        <ul class="list-unstyled mt-3 mb-4"> 
+                            <li>For entrepreneurs starting their online presence. Includes professional design, one-page website and contact form.</li> <br>
+                            <li>Perfect for Small Brands or Personal Projects</li>
+                        </ul> 
+                        <button type="button" class="w-100 btn btn-lg btn-outline-custom">Let's Start</button> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="col"> 
+                <div class="card mb-4 rounded-3 shadow-sm glass-card"> 
+                    <div class="card-header py-3"> 
+                        <h4 class="my-0 fw-normal">Professional</h4> 
+                    </div> 
+                    <div class="card-body"> 
+                        <h1 class="card-title pricing-card-title">$600+<small class="text-body-secondary fw-light"></small></h1> 
+                        <ul class="list-unstyled mt-3 mb-4"> 
+                            <li>Our most popular package: multi-page responsive website, SEO optimization, and social media integration.</li> <br>
+                            <li>Perfect for Businesses ready to attract more clients online.</li> 
+                        </ul> 
+                        <button type="button" class="w-100 btn btn-lg btn-custom">Let's Start</button> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="col"> 
+                <div class="card mb-4 rounded-3 shadow-sm border-custom glass-card"> 
+                    <div class="card-header py-3 text-bg-custom border-custom"> 
+                        <h4 class="my-0 fw-normal">Premium</h4> 
+                    </div> 
+                    <div class="card-body"> 
+                        <h1 class="card-title pricing-card-title">$1300+<small class="text-body-secondary fw-light"></small></h1> 
+                        <ul class="list-unstyled mt-3 mb-4"> 
+                            <li>The complete solution: online store, payment integration, blog, advanced optimization, and priority support.</li> <br> 
+                            <li>Perfect for Companies ready to sell and scale online.</li> 
+                        </ul> 
+                        <button type="button" class="w-100 btn btn-lg btn-custom">Let's Start</button> 
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container"> 
+            <footer class="d-flex flex-wrap flex-column flex-md-row justify-content-between align-items-center py-3 my-4 border-top text-center text-md-start">
+                <p class="col-12 col-md-4 mb-2 mb-md-0 text-body-secondary order-3 order-md-1">© 2025 Codelli Studio, Inc</p>
+                <a href="#" class="col-12 col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 order-1 order-md-2" aria-label="Bootstrap">
+                <img src="./media/Codelli_Logo_J-6-removebg-preview.png" class="footer-logo" height="200">
+                </a>
+                <ul class="nav col-12 col-md-4 justify-content-center justify-content-md-end order-2 order-md-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link px-2 text-body-secondary">Features</a></li>
+                    <li class="nav-item"><a href="#intro" class="nav-link px-2 text-body-secondary">About</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+
+            <!-- Chatbot Floating Button and Window -->
+    <div id="chatbot-container">
+        <button id="chatbot-button">💬</button>
+        <div id="chatbot-window" class="hidden">
+            <div id="chatbot-header">
+                <span>Codelli AI Assistant</span>
+                <button id="close-chat">✖</button>
+            </div>
+            <div id="chatbot-messages"></div>
+            <div id="chatbot-input-container">
+                <input type="text" id="chatbot-input" placeholder="Type a message...">
+                <button id="send-message">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="./particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
